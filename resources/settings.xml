@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings>
+    <category label="32000">
+        <setting label="32001" type="text" id="MALUsername" default="" visible="true" />
+        <setting label="32002" type="text" id="MALPassword" default="" option="hidden" visible="true" />
+    </category>
+    <category label="33000">
+        <setting label="33001" type="lsep"/>
+        <setting label="33002" type="text" id="MonitorPaths" default="" visible="true" />
+    </category>
+</settings>
