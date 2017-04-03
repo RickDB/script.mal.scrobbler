@@ -73,7 +73,7 @@ class Monitor(xbmc.Monitor):
                 pass
             pass
         if 'VideoLibrary.OnUpdate' in method:
-            if anime_was_played and anime_id is not 0:
+            if anime_was_played and anime_id is not None:
                 result = getEpisodeDetailsFromKodi(anime_id, ['showtitle', 'season', 'episode', 'tvshowid',
                                                               'playcount'])
 
